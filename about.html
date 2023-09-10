@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Josefin+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About</title>
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="/logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>About Us</h1>
+          
+        </div>
+
+    </section>
+
+
+    <!-- ---------------------------about us content---------------------- -->
+
+    <section class="about-us">
+        <div class="row">
+
+            <div class="about-col">
+                <h1>We Are The World's Largest <br> University</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, molestias dolore tempore animi
+                    quasi cupiditate molestiae, quos cum obcaecati, quod perspiciatis odit aut commodi totam placeat
+                    iusto? Aspernatur, ipsam est.</p>
+                <a href="" class="hero-btn red-btn">Explore More </a>
+
+
+            </div>
+            <div class="about-col">
+                <img src="/backgrond2.jpg" alt="">
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <img src="/about3.jpg" alt="" class="about3">
+
+            </div>
+            <div class="about-col">
+                <h1>We Are The World's Largest <br> University</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, molestias dolore tempore animi
+                    quasi cupiditate molestiae, quos cum obcaecati, quod perspiciatis odit aut commodi totam placeat
+                    iusto? Aspernatur, ipsam est.</p>
+                <a href="" class="hero-btn red-btn">Explore More </a>
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+    <!-- !-- -----------------------------footer------------------------- -->
+
+    <section class="footer">
+
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Eius dolorum suscipit ad. Quidem, illum
+            corporation</p>
+
+        <div class="icons">
+
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+
+        </div>
+
+    </section>
+
+
+    <!-- --------------JAVASCRIPT for toggle menu-------------------------- -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
